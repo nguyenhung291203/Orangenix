@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* button */
+.button {
+    padding: 28px 39px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.button i {
+    color: #335B6B;
+    margin-left: 10px;
+}
+
+.button--white {
+    color: #274C5B;
+    border: 2px solid #274C5B;
+    background: #fff;
+}
+
+.button--white:hover {
+    color: #fff;
+    background: #274C5B;
+}
+
+.button--yellow{
+    color: #274C5B;
+    background: #EFD372;
+    border: 2px solid #EFD372;
+}
+
+.button--yellow:hover{
+    background:#fff;
+    color:#EFD372;
+}
+
+.button--yellow:hover i{
+    color:#EFD372;
+}
+/* end button */

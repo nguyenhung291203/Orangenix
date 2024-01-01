@@ -1,0 +1,137 @@
+.app{
+    width: 1920px;
+}
+
+.products {
+    background: #fff;
+    padding-top: 176px;
+    padding-bottom: 200px;
+}
+
+.products__inner {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+.product__category {
+    margin-bottom: 40px;
+    text-align:center;
+}
+
+.product__category p:nth-child(1) {
+    color: #7EB693;
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+.product__category p:nth-child(2) {
+    color: #274C5B;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.products__content {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.product__content__item {
+    border-radius: 30px;
+    background: #F9F8F8;
+    padding:29px 26px 17px 30px;
+    cursor: pointer;
+}
+
+.product__content__item:hover img{
+    transform: scale(1.1);
+}
+
+.product__item__category {
+    padding: 5px 12px 6px 12px;
+    margin-bottom: 13px;
+    border-radius: 8px;
+    background: #274C5B;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.product__item__image{
+    aspect-ratio: 1/1;
+}
+
+.product__item__image img{
+    width:100%;
+    object-fit: contain;
+    transition: all 0.3s ease-in-out;
+}
+
+.product__item__info{
+    
+}
+
+.product__name{
+    color: #274C5B;
+    font-size:20px;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+
+.product__item__info hr{
+    width: calc(100% - 4px);
+    border-width:0;
+    border-top: 1px solid #DEDDDD;
+}
+
+.product__rating{
+    margin-top: 6px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.product__price{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.product__price span:nth-child(1){
+    color: #B8B8B8;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: line-through;
+    margin: 0 auto;
+    margin-right: 8px;
+    
+}
+
+.product__price span:nth-child(2){
+    color: #274C5B;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.stars i{
+    font-size: 18px;
+    color:#FFA858;
+    transition: all 0.3s ease-in-out;
+}
+
+.stars i:hover{
+    color:#274C5B;
+}
+
+.products__inner .button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 122px;
+}
+
+.products__inner .button i{
+    color:#335B6B;
+    margin-left: 10px;
+}

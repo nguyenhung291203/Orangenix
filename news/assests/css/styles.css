@@ -1,0 +1,131 @@
+.app {
+    width: 1920px;
+}
+
+/* news */
+.news {
+    background: #fff;
+    margin-bottom: 185px;
+    padding-top: 170px;
+}
+
+.news__inner {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.news__top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.news__top__left {
+    width: 702px;
+}
+
+.news__top__left p:nth-child(1) {
+    color: #7EB693;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Yellowtail', cursive;
+    margin-bottom: 8px;
+}
+
+.news__top__left p:nth-child(2) {
+    color: #274C5B;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.news__top__right {
+    margin-top: auto;
+}
+
+.news__bottom {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 46px;
+}
+
+.news__bottom__content {
+    aspect-ratio: 677/524;
+    position: relative;
+}
+
+.news__bottom__image {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 32px;
+}
+
+.news__bottom__date {
+    width: 82px;
+    height: 82px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 43px;
+    left: 32px
+}
+
+.news__bottom__date p {
+    color: #274C5B;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.news__bottom__text {
+    width: calc(100% - 64px);
+    aspect-ratio: 613/330;
+    padding: 46px 57px 60px 57px;
+    position: absolute;
+    top: 262px;
+    left: 32px;
+    border-radius: 32px;
+    background: #fff;
+    box-shadow: 0px 20px 35px 0px #A7A7A740;
+
+}
+
+.news__content__user {
+    margin-bottom: 15px;
+}
+
+.news__content__user i {
+    color: #EFD372;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.news__content__user span {
+    font-weight: 400;
+    font-size: 18px;
+    color: #274C5B;
+}
+
+.news__content__text {
+    margin-bottom: 15px;
+    line-height: 29.772px ;
+
+}
+
+.news__content__text p:nth-child(1) {
+    color: #274C5B;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.news__content__text p:nth-child(2) {
+    color: #525C60;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* end news */
